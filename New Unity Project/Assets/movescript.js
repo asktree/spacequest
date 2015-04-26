@@ -7,7 +7,7 @@ function Start () {
 
 function Update () {
 	var tilesize : float = 1;
-	if(Input.GetMouseButton(0)) {
+	if(Input.GetMouseButton(0) && domove == false) {
 
 		var tilex = Mathf.Floor(Camera.main.ScreenToWorldPoint(Input.mousePosition).x / tilesize);
 		var tiley = Mathf.Floor(Camera.main.ScreenToWorldPoint(Input.mousePosition).y / tilesize);
@@ -24,7 +24,7 @@ function Update () {
 		Debug.Log(tilex + " " + playertilex);
 	}
 	
-	var movespeed : float = 1.0;
+	var movespeed : float = 2.0;
 	
 	if(!domove){
 	}
@@ -40,6 +40,4 @@ function Update () {
 		directionvector.Normalize();
 		transform.Translate(movespeed*directionvector*Time.deltaTime);
 	}
-	var speed : float = Input.GetAxisRaw("Horizontal") * Time.deltaTime;
-	transform.Translate(Vector2(speed,0));
 }
