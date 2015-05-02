@@ -10,8 +10,7 @@ function Start() {
 
 
 function Update () {
-	var move = Vector2.zero;
-	move += Input.GetAxisRaw("Horizontal")*Vector2.right;
+	var move = Input.GetAxisRaw("Horizontal")*Vector2.right;
 	move += Input.GetAxisRaw("Vertical")*Vector2.up;
 	move = Vector3.Normalize(move);
 	rb.velocity= move*speed;

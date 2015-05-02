@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\movescript.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Zoom.js">
     <Files>
-      <File FileName="Assets\movescript.js" Line="8" Column="15" />
-      <File FileName="Assets\ship1\layout.js" Line="10" Column="3" />
+      <File FileName="Assets\Zoom.js" Line="27" Column="49" />
+      <File FileName="Assets\movescript.js" Line="12" Column="17" />
+      <File FileName="Assets\ship1\layout.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

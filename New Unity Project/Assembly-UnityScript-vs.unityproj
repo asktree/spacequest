@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\NewBehaviourScript.js" />
+     <Compile Include="Assets\Zoom.js" />
      <Compile Include="Assets\movescript.js" />
      <Compile Include="Assets\ship1\layout.js" />
  <Reference Include="UnityEngine.UI">
