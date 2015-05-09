@@ -7,6 +7,7 @@ function Update() {
 	var move = Input.GetAxisRaw("Horizontal Camera")*Vector2.right;
 	move += Input.GetAxisRaw("Vertical Camera")*Vector2.up;
 	move = Vector3.Normalize(move);
+	move = transform.TransformDirection(move);
 	//camera moves faster when farther away
 	var speed = movespeed*GetComponent.<Camera>().orthographicSize;
 	transform.position += move*speed;
