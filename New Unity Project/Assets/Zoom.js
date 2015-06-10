@@ -1,4 +1,5 @@
 ﻿#pragma strict
+
 public var zoomspeed : float = 0.1;
 public var movespeed : float = 0.05;
 

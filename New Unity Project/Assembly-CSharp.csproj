@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{79391AC5-8752-B4CC-F33F-BB9EB1094377}</ProjectGuid>
+	<ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,21 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\ChatApi\ChatChannel.cs" />
-     <Compile Include="Assets\Plugins\ChatApi\ChatClient.cs" />
-     <Compile Include="Assets\Plugins\ChatApi\ChatDisconnectCause.cs" />
-     <Compile Include="Assets\Plugins\ChatApi\ChatEventCode.cs" />
-     <Compile Include="Assets\Plugins\ChatApi\ChatOperationCode.cs" />
-     <Compile Include="Assets\Plugins\ChatApi\ChatParameterCode.cs" />
-     <Compile Include="Assets\Plugins\ChatApi\ChatPeer.cs" />
-     <Compile Include="Assets\Plugins\ChatApi\ChatState.cs" />
-     <Compile Include="Assets\Plugins\ChatApi\ChatUserStatus.cs" />
-     <Compile Include="Assets\Plugins\ChatApi\IChatClientListener.cs" />
+     <Compile Include="Assets\Ship.cs" />
+     <Compile Include="Assets\SpaceObject.cs" />
+     <Compile Include="Assets\StarMap.cs" />
+     <Compile Include="Assets\Station.cs" />
+     <Compile Include="Assets\UILineConnector.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Photon3Unity3D">
- <HintPath>C:/Personal Proj/Space Quest/New Unity Project/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
